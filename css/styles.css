@@ -606,6 +606,13 @@ progress {
   height: auto;
 }
 
+/* @media (max-width: 992px){
+  .img-fluid{
+    max-width: 100%;
+    height: aut
+  }
+} */
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11069,7 +11076,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/ipad.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11120,7 +11127,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
